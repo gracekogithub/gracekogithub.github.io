@@ -65,12 +65,18 @@ div.card {
 }
 div.myword{
     color: #ffff;
-    text-align: right;
+    text-align: center;
     position: fixed;
     bottom: 30px;
     width: 90%;
 }
 /*Portfolio*/
+.icon-user {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
 * {
     box-sizing: border-box;
   }
@@ -130,4 +136,11 @@ div.myword{
     }
   }
 
- 
+ /*thank you*/
+ div.thanks{
+     top: 40%;
+    position:center;
+     text-align: center;
+     color: black;
+
+ }
