@@ -6,4 +6,17 @@ img {
     grid-template-columns : 1fr 1fr 1fr;
     grid-column-gap: 25px;
 }
+.aboutme-content img{
+    width: 100%;
+    height: auto;
+}
+.aboutme-content{
+    position: relative
+}
+.aboutme-text{
+    position: absolute;
+    top:25%;
+    color: #000000;
+    padding:10px;
 
+}
