@@ -23,9 +23,20 @@
     color: white;
   }
   
-/*  */
+  div.welcome {
+      text-align:right;
+  }
+
+.header{
+    background-image: url("image/header.jpg");
+    padding: 30px;
+    text-align: center;
+}
+
+
 img {
     width: 100%;
+
 }
 .project {
     display: grid;
@@ -45,6 +56,19 @@ img {
     color: #000000;
     padding:10px;
 
+}
+/* home page*/
+
+div.card {
+    float: right;
+
+}
+div.myword{
+    color: #ffff;
+    text-align: right;
+    position: fixed;
+    bottom: 30px;
+    width: 90%;
 }
 /*Portfolio*/
 * {
