@@ -22,15 +22,34 @@
     background-color: #4CAF50;
     color: white;
   }
-  
-  div.welcome {
-      text-align:right;
+div.trasparent{
+    border: 2px solid black;
+}
+  div.welcome h2{
+    text-align: right;
+    font-weight: bold;
+    color:black;
+    margin: 30px;
+  }
+  div.welcome h4{
+    text-align: right;
+    margin: 30px;
+    color:rgb(42, 128, 88);
+ 
+  }
+  div.welcome { 
+
+      padding: 20px;
+      background-color: white;
+      background-position:top right;
+      opacity: 0.5;
   }
 
 .header{
     background-image: url("image/header.jpg");
     padding: 30px;
     text-align: center;
+    color: rgb(4, 46, 138);
 }
 
 
@@ -61,14 +80,16 @@ img {
 
 div.card {
     float: right;
+    margin:30px;
 
 }
 div.myword{
-    color: #ffff;
+    color: whitesmoke;
     text-align: center;
     position: fixed;
     bottom: 30px;
     width: 90%;
+    
 }
 /*Portfolio*/
 .icon-user {
@@ -136,7 +157,7 @@ div.myword{
     }
   }
 
- /*thank you*/
+
  div.thanks{
      top: 40%;
     position:center;
