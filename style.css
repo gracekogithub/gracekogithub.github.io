@@ -29,11 +29,11 @@ div.trasparent{
     text-align: right;
     font-weight: bold;
     color:black;
-    margin: 30px;
+    margin: 10px;
   }
   div.welcome h4{
     text-align: right;
-    margin: 30px;
+    margin: 10px;
     color:rgb(42, 128, 88);
  
   }
@@ -87,7 +87,7 @@ div.myword{
     color: whitesmoke;
     text-align: center;
     position: fixed;
-    bottom: 30px;
+    bottom: 50px;
     width: 90%;
     
 }
